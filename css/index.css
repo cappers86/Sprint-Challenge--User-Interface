@@ -71,6 +71,30 @@ p {
     margin: 0 auto;
 }
 
+nav {
+    
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px;
+    font-size: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    justify-content: space-around;
+}
+.nav2 {
+border-top: 15px; 
+}
+
+.topimg {
+    margin-bottom: 20px;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -81,7 +105,7 @@ p {
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
+    padding: 0 2%;
     padding-bottom: 20px;  
 }
 
@@ -98,7 +122,7 @@ p {
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .middle-content .boxes .box {
@@ -111,6 +135,47 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.boxes .box:nth-child(1) {
+    background: teal; 
+}
+
+.boxes .box:nth-child(2) {
+    background: gold; 
+}
+
+.boxes .box:nth-child(3) {
+    background: cadetblue; 
+}
+
+.boxes .box:nth-child(4) {
+    background: coral; 
+}
+
+.boxes .box:nth-child(5) {
+    background: crimson; 
+}
+
+.boxes .box:nth-child(6) {
+    background: forestgreen; 
+}
+
+.boxes .box:nth-child(7) {
+    background: darkorchid; 
+}
+
+.boxes .box:nth-child(8) {
+    background: hotpink; 
+}
+
+.boxes .box:nth-child(9) {
+    background: indigo; 
+}
+
+.boxes .box:nth-child(10) {
+    background: dodgerblue; 
+}
+
 
 .bottom-content {
     display: flex;

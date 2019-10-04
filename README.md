@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+If I was to describe semantic HTML to some one who had never heard of it, I would simply say it is as the word describes it gives meaning and to some degree a level of understanding with the html lanuage you are using. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+The first big difference between the two is that display block will take up alot more space by defualt compared to display inline.
+The second difference worth noting is block allows you to use width and height properties where as inline does not.
 
 3. What are the 4 areas of the box model?
 
+The content edge, padding edge, border edge, and margin edge.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+This would be the cross axis and direction is determined by the value added. 
+
 5. Explain why git is valuable to a team of developers.
+
+Git is an extremly valuable tool for all developers as it allows mutliple people to work on one project simultaneously whilst keep the work stored locally as well as remotely. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -74,7 +85,7 @@ Your finished project must include all of the following requirements:
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
+* [ ] box1: ``
 * [ ] box2: `gold`
 * [ ] box3: `cadetblue`
 * [ ] box4: `coral`
