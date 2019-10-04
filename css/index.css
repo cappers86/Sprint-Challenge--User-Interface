@@ -71,6 +71,30 @@ p {
     margin: 0 auto;
 }
 
+nav {
+    
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px;
+    font-size: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    justify-content: space-around;
+}
+.nav2 {
+border-top: 15px; 
+}
+
+.topimg {
+    margin-bottom: 20px;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -81,7 +105,7 @@ p {
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
+    padding: 0 2%;
     padding-bottom: 20px;  
 }
 
@@ -111,6 +135,7 @@ p {
     align-items: center;
     justify-content: center;
 }
+
 
 .bottom-content {
     display: flex;
