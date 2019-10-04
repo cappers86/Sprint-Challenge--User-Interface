@@ -122,7 +122,7 @@ border-top: 15px;
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .middle-content .boxes .box {
@@ -134,6 +134,46 @@ border-top: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.boxes .box:nth-child(1) {
+    background: teal; 
+}
+
+.boxes .box:nth-child(2) {
+    background: gold; 
+}
+
+.boxes .box:nth-child(3) {
+    background: cadetblue; 
+}
+
+.boxes .box:nth-child(4) {
+    background: coral; 
+}
+
+.boxes .box:nth-child(5) {
+    background: crimson; 
+}
+
+.boxes .box:nth-child(6) {
+    background: forestgreen; 
+}
+
+.boxes .box:nth-child(7) {
+    background: darkorchid; 
+}
+
+.boxes .box:nth-child(8) {
+    background: hotpink; 
+}
+
+.boxes .box:nth-child(9) {
+    background: indigo; 
+}
+
+.boxes .box:nth-child(10) {
+    background: dodgerblue; 
 }
 
 
